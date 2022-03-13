@@ -71,16 +71,16 @@ const BlogPage=()=>{
                     <h5 className="blog_category_title">Latest Projects</h5>
                     <ul className="list-unstyled blog_social_media">
                         <li>
-                            <a  className="facebook"><i className="fab fa-facebook-f"></i></a>
+                            <a href="#" className="facebook"><i className="fab fa-facebook-f"></i></a>
                         </li>
                         <li>
-                            <a  className="youtube"><i className="fab fa-youtube"></i></a>
+                            <a href="#" className="youtube"><i className="fab fa-youtube"></i></a>
                         </li>
                         <li>
-                            <a  className="twitter"><i className="fab fa-twitter"></i></a>
+                            <a href="#" className="twitter"><i className="fab fa-twitter"></i></a>
                         </li>
                         <li>
-                            <a className="linkedin"><i className="fab fa-linkedin-in"></i></a>
+                            <a href="#" className="linkedin"><i className="fab fa-linkedin-in"></i></a>
                         </li>
                     </ul>
                 </div>

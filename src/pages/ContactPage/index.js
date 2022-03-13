@@ -30,28 +30,28 @@ const ContactPage=()=>{
                          <h4>Get in Touch</h4>
                          <p>Please feel free to drop a line below.</p>
 
-                         <div action="" className="mt-4">
+                         <form action="#" className="mt-4">
                             <div className="form-group">
-                                <input type="text" name="" className="form-control " placeholder="Name"/>
+                                <input type="text" name="" required className="form-control" placeholder="Name"/>
                             </div>
                             <div className="form-group">
-                                <input type="text" name="" className="form-control " placeholder="Email"/>
+                                <input type="text" name="" required className="form-control" placeholder="Email"/>
                             </div>
                             <div className="form-group">
-                                <input type="text" name="" className="form-control " placeholder="Phone Number"/>
+                                <input type="text" name="" required className="form-control" placeholder="Phone Number"/>
                             </div>
                             <div className="form-group">
-                                <input type="text" name="" className="form-control " placeholder="Subject"/>
+                                <input type="text" name="" required className="form-control" placeholder="Subject"/>
                             </div>
                             <div className="form-group"> 
-                                <textarea name=""  className="form-control " cols="30" rows="4"  placeholder="Message"></textarea>
+                                <textarea name=""  className="form-control" cols="30" rows="4"  placeholder="Message"></textarea>
                             </div>
 
                             <div className="text-center">
                                 <button type="submit" className="btn btn-warning btn-lg">Send</button>
                             </div>
 
-                          </div>  
+                          </form>  
                     </div>
                 </div>
             </div> 

@@ -9,15 +9,15 @@ const WorkExperience = ()=>{
                         <div className="title_highlighter"> 
                             <div className="title_highlighter_inner_wrapp">
                                 <span className="line"></span>
-                                <span className="text">My Experiance</span>
+                                <span className="text">My Experience</span>
                             </div> 
                         </div> 
                         <div className="title_content_container">
                             <h3 className="title_header">
-                                Work Experiance
+                                Work Experience
                             </h3>
                             <p>
-                            A Computer Science post graduate who is self-directed with a passion to build products that enrich the lives of people, and love to embrace the latest trends and best practices in the development process as a Software Engineer. Over 5+ years of professional experience in Developing and Implementing interactive websites and web applications.  
+                            A Computer Science post graduate who is self-directed with a passion to build products that enrich the lives of people, and love to embrace the latest trends and best practices in the development process as a Software Engineer. Over 6+ years of professional experience in Developing and Implementing interactive websites and web applications.  
                             </p>    
                         </div>    
                     </div>

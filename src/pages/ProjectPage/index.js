@@ -21,7 +21,7 @@ const ProjectPage=()=>{
                       <div className="col-lg-4 col-md-6 portfolio-item">
                            <div className="portfolio-wrap">
                              <div className="product_content">
-                                <img src="asset/image/mountains.jpg" className="img-fluid" alt=""/>
+                                <img src="asset/image/mountains.jpg" className="img-fluid" alt='Dhananjay'/>
                                 <div className="portfolio-info">
                                 <div className="portfolio-links">
                                     <a href="#" data-gall="portfolioGallery" className="venobox" title="App 1">
@@ -41,7 +41,7 @@ const ProjectPage=()=>{
                         <div className="col-lg-4 col-md-6 portfolio-item">
                            <div className="portfolio-wrap">
                              <div className="product_content">
-                                <img src="asset/image/mountains.jpg" className="img-fluid" alt=""/>
+                                <img src="asset/image/mountains.jpg" className="img-fluid" alt='Dhananjay'/>
                                 <div className="portfolio-info">
                                 <div className="portfolio-links">
                                     <a href="#" data-gall="portfolioGallery" className="venobox" title="App 1">
@@ -61,7 +61,7 @@ const ProjectPage=()=>{
                         <div className="col-lg-4 col-md-6 portfolio-item">
                            <div className="portfolio-wrap">
                              <div className="product_content">
-                                <img src="asset/image/mountains.jpg" className="img-fluid" alt=""/>
+                                <img src="asset/image/mountains.jpg" className="img-fluid" alt='Dhananjay'/>
                                 <div className="portfolio-info">
                                 <div className="portfolio-links">
                                     <a href="#" data-gall="portfolioGallery" className="venobox" title="App 1">

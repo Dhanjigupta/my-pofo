@@ -31,7 +31,7 @@ const AboutPage= () =>{
 
                      <ul style={{listStyle:'none', paddingLeft:'0px'}}>
                         <li><i style={{color:"#ffc13e"}} class="fa fa-chevron-right"></i> <strong>Highest Qualification:</strong> MCA (Master of Computer Application)</li>
-                        <li><i style={{color:"#ffc13e"}} class="fa fa-chevron-right"></i> <strong>Experience:</strong> 5+ Years</li>
+                        <li><i style={{color:"#ffc13e"}} class="fa fa-chevron-right"></i> <strong>Experience:</strong> 6+ Years</li>
                         <li><i style={{color:"#ffc13e"}} class="fa fa-chevron-right"></i> <strong>Speciality:</strong> MERN Full Stack Development</li>
                         <li><i style={{color:"#ffc13e"}} class="fa fa-chevron-right"></i> <strong>Email:</strong> mr.dhanjigupta@gmail.com</li>
                         <li><i style={{color:"#ffc13e"}} class="fa fa-chevron-right"></i> <strong>Mobile:</strong> 9525037744</li>

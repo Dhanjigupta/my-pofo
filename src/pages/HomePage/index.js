@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../../component/Navbar';
 import Footer from '../../component/Footer';
 import SkillProgress from '../../component/SkillProgress';
-import SkillsList from '../../component/SkillsList';
+// import SkillsList from '../../component/SkillsList';
 import WorkExperience from '../../component/WorkExperience';
 const HomePage = () =>{
 return(
@@ -32,7 +32,7 @@ return(
                 </div>
             </div>
             <div className="col-lg-5">
-                <img src="asset/image/dhananjay.png" className="img-fluid"/>
+                <img src="asset/image/dhananjay.png" className="img-fluid" alt='Dhananjay'/>
             </div>
          </div>
       </div>
@@ -66,8 +66,8 @@ return(
                 </div>
                 <div class="col-lg-6 ">
                     <div class="skill_img_container">
-                        <img src="asset/image/project_2.jpg" class="skill_img_1"/>
-                        <img src="asset/image/bg.jpg" class="skill_img_2" />
+                        <img src="asset/image/project_2.jpg" alt='Dhananjay' class="skill_img_1"/>
+                        <img src="asset/image/bg.jpg" alt='Dhananjay' class="skill_img_2" />
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ return(
                 <div className="col-md-4">
                     <div className="blog-item">
                         <div className="blog-item-img-container">
-                            <img src="asset/image/project_1.jpg" alt=""/>
+                            <img src="asset/image/project_1.jpg" alt='Dhananjay' />
                         </div>
                         <div className="blog-content-container">
                            <h5>Project Management
@@ -126,7 +126,7 @@ return(
                 <div className="col-md-4">
                     <div className="blog-item">
                         <div className="blog-item-img-container">
-                            <img src="asset/image/project_1.jpg" alt=""/>
+                            <img src="asset/image/project_1.jpg" alt='Dhananjay'/>
                         </div>
                         <div className="blog-content-container">
                             <h5>Project Management
@@ -137,7 +137,7 @@ return(
                 <div className="col-md-4">
                     <div className="blog-item">
                         <div className="blog-item-img-container">
-                            <img src="asset/image/project_1.jpg" alt=""/>
+                            <img src="asset/image/project_1.jpg" alt='Dhananjay'/>
                         </div>
                         <div className="blog-content-container">
                             <h5>Project Management
