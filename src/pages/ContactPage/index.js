@@ -1,15 +1,45 @@
 import React from 'react';
 import Header from '../../component/Header';
 import Footer from '../../component/Footer';
+var net = require('net-browserify')
+var nodemailer = require('nodemailer');
+ 
 const ContactPage=()=>{
+ const onSubmitHandler = (event) => {
+event.preventDefault();
+        
+var transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: 'Dkgsigner1@gmail.com',
+      pass: 'Dkg123@gmail'
+    }
+  });
+  
+  var mailOptions = {
+    from: 'test@gmail.com',
+    to: 'mr.dhanjigupta@gmail.com',
+    subject: 'Sending Email using Node.js',
+    text: 'That was easy!'
+  };
+  
+  transporter.sendMail(mailOptions, function(error, info){
+    if (error) {
+      console.log(error);
+    } else {
+      console.log('Email sent: ' + info.response);
+    }
+  });
+        
+};
+
     return(
       <div>
        <header>
           <Header />
        </header>
  
-
-    <section className="home_skill">
+      <section className="home_skill">
         <div className="container">
             <div className="row">
                 <div className="col-lg-7">
@@ -30,21 +60,21 @@ const ContactPage=()=>{
                          <h4>Get in Touch</h4>
                          <p>Please feel free to drop a line below.</p>
 
-                         <form action="#" className="mt-4">
-                            <div className="form-group">
-                                <input type="text" name="" required className="form-control" placeholder="Name"/>
+                         <form onSubmit={onSubmitHandler} className="mt-4">
+                            <div className="form-group" >
+                                <input style={{color:'white'}} type="text" name="Name" required className="form-control" placeholder="Full Name"/>
                             </div>
                             <div className="form-group">
-                                <input type="text" name="" required className="form-control" placeholder="Email"/>
+                                <input style={{color:'white'}} type="email" name="Email" required className="form-control" placeholder="Email"/>
                             </div>
                             <div className="form-group">
-                                <input type="text" name="" required className="form-control" placeholder="Phone Number"/>
+                                <input style={{color:'white'}} type="number" name="Mobile" maxLength="10"  required className="form-control" placeholder="Phone Number"/>
                             </div>
                             <div className="form-group">
-                                <input type="text" name="" required className="form-control" placeholder="Subject"/>
+                                <input style={{color:'white'}} type="text" name="Subject" required className="form-control" placeholder="Subject"/>
                             </div>
                             <div className="form-group"> 
-                                <textarea name=""  className="form-control" cols="30" rows="4"  placeholder="Message"></textarea>
+                                <textarea style={{color:'white'}} name="Message"  className="form-control" cols="30" rows="4"  placeholder="Message"></textarea>
                             </div>
 
                             <div className="text-center">
